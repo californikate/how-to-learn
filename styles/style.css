@@ -326,6 +326,6 @@
   padding-right: 10px;
 }
 
-a:hover {
+.link:hover {
   color: rgb(0, 0, 255);
 }
