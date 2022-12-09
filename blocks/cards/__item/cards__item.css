@@ -1,0 +1,6 @@
+.cards__item {
+  max-width: 240px;
+  width: 100%;
+  padding-top: 60px;
+  box-sizing: border-box;
+ }
