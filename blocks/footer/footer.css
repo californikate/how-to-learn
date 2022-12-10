@@ -3,4 +3,6 @@
   min-height: 350px;
   background-color: #1f1f1f;
   color: #fff;
+  padding: 60px 0 40px;
+  box-sizing: border-box;
 }
