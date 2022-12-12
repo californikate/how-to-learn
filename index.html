@@ -18,10 +18,10 @@
         использовать в своей жизни? <a href="#" class="header__link link">Узнать &rarr;</a></p>
       <img src="./images/header-image.png" alt="картина Ф.П. Решетникова Опять двойка."
         class="header__main-illustration">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <div class="description">
+      <section class="description">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -37,7 +37,7 @@
               эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -72,12 +72,16 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY?color=white" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer2" src="https://www.youtube.com/embed/arj7oStGLkU?color=white" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" id="ytplayer1" src="https://www.youtube.com/embed/5MgBikgcWnY?color=white" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" id="ytplayer2" src="https://www.youtube.com/embed/arj7oStGLkU?color=white" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
-      <div class="oakley">
+      <section class="oakley">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -90,7 +94,7 @@
               кому всё ясно с первого взгляда.</p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="feynman">
         <img src="./images/feynman.png" alt="Портрет Ричарда Фейнмана." class="feynman__img">
         <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -141,10 +145,12 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+          <blockquote class="khan__quote">
+            <p >Страсть и новаторство Сала Хана меняют процесс обучения миллионов
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается
             образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят
             успех в школе, карьере и жизни.</p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -199,16 +205,16 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <a class="resources__link link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="образовательный проект Арзамас." class="resources__logo"></a>
-          <a class="resources__link link" href="#"><img src="./images/logo/resources-n1.svg" alt="научно-популярное издание н плюс один." class="resources__logo"></a>
-          <a class="resources__link link" href="#"><img src="./images/logo/resources-strelka.svg" alt="институт медиа, архитектуры и дизайна Стрелка." class="resources__logo"></a>
-          <a class="resources__link link" href="#"><img src="./images/logo/resources-polka.svg" alt="образовательный проект Полка." class="resources__logo"></a>
+            <a class="resources__link link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="образовательный проект Арзамас." class="resources__logo"></a>
+            <a class="resources__link link" href="#"><img src="./images/logo/resources-n1.svg" alt="научно-популярное издание н плюс один." class="resources__logo"></a>
+            <a class="resources__link link" href="#"><img src="./images/logo/resources-strelka.svg" alt="институт медиа, архитектуры и дизайна Стрелка." class="resources__logo"></a>
+            <a class="resources__link link" href="#"><img src="./images/logo/resources-polka.svg" alt="образовательный проект Полка." class="resources__logo"></a>
         </div>
       </section>
     </main>
