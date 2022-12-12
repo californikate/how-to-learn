@@ -21,5 +21,5 @@ _______
 [Бриф. Часть 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf)
 [Бриф. Часть 2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf)
 
-[![Яндекс лого](../how-to-learn/images/logo_place_header.svg)](https://practicum.yandex.ru/)
+[![Яндекс лого](https://github.com/californikate/how-to-learn/blob/main/images/logo_place_header.svg)](https://practicum.yandex.ru/)
 
