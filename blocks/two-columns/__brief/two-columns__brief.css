@@ -1,4 +1,4 @@
-.two-columns__brief{
+.two-columns__brief {
   max-width: 175px;
   width: 100%;
   margin: 0;
@@ -6,4 +6,11 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 1125px) {
+  .two-columns__brief {
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
 }

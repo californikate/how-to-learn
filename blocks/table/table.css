@@ -1,4 +1,4 @@
-.table{
+.table {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,4 +7,12 @@
   width: 1100px;
   margin: 0 auto;
   padding: 0;
+}
+
+@media screen and (max-width:1128px) {
+  .table {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 }
